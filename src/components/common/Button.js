@@ -6,8 +6,7 @@ class Button extends Component{
         super(props)
     }
     
-    render(){    
-        console.log(this.state);
+    render(){
         const { buttonStyle, textStyle } = styles;
         
         return (
